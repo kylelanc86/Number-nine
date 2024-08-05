@@ -1,0 +1,27 @@
+.under-trans {
+    text-decoration: none;
+    color:white;
+    position: relative;
+
+}
+
+.under-trans:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+    color: #b25416;
+
+    transform: scaleX(0.2);
+    transform-origin: left;
+    transition: transform 150ms ease-in;
+
+}
+
+.under-trans:hover::after {
+    transform: scaleX(1);
+    color: #b25416;
+}
