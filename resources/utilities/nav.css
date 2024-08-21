@@ -8,33 +8,43 @@ nav {
     z-index: 10;
     width: 100%;
     
-    /* outline: 1px solid red; */
     }
 
 .nav-items {
-    justify-content: space-around;
-    /* outline: 1px solid red; */
+    display: flex;
+    justify-content:space-between;
+    margin: 0 2rem;
+    /* outline: solid 1px red; */
 }
 
-nav a {
+.links {
     list-style-type: none;
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
+    justify-content: center;
+    padding-top: 3rem;
+    /* outline: solid 1px red; */
+
 }
 
-.logo img {
-    height: 8rem;
-    margin-right: 16rem;
+.links a {
+    margin: 0 30px;
+    
 }
+
 
 .socials img {
     height: 3rem;
-    margin: 4px;
+    padding: 2.5rem 1rem;
+    
 }
 
 .socials {
     /* outline: 1px solid red; */
+    padding-bottom: 7rem;
+    
+
 }
 
 /*   END */

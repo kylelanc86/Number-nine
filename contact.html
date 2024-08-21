@@ -5,7 +5,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
         <link href="./resources/desktop-styles.css" rel="stylesheet">
         <link href="./resources/utilities/colours.css" rel="stylesheet">
         <link href="./resources/utilities/text.css" rel="stylesheet">
@@ -13,13 +12,13 @@
         <link href="./resources/utilities/link-hover.css" rel="stylesheet">
         <link href="./resources/utilities/stickers.css" rel="stylesheet">
         <link href="./resources/utilities/footer.css" rel="stylesheet">
-
+        <link href="./resources/utilities/contact.css" rel="stylesheet">
 
     </head>
 
 <body>
     <nav>
-        <div class="nav-items desktop">
+        <div class="nav-items">
             <div><a class="under-trans sticker-box" href="./menus.html"> </a>
                 <div class="rotate-sticker"></div>
                 <!-- <div class="sticker-msg"> NOW OPEN! </div> -->
@@ -32,63 +31,60 @@
                 <a></a>
                 <a class="under-trans" href="./about.html">About Us</a>
                 <a></a><a class="under-trans" href="./contact.html">Contact Us</a>
-            </div>
+                </div>
+
         </div>
     </nav>
 
 <main>
-    <section class="banner container">
-        <div class="banner-text">
-            <h1>Welcome to</h1>
-        </div>
-        <div class="space"></div>
-        <div class="logo"><a><img src="./resources/images/ReversedMainLogo_Web-06.svg" alt="No.9 Logo"></a></div>
+    <section class="contact-us"><a id="contactus"></a>
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="" class="contact-left">
+                <div class="contact-left-title">
+                    <h3>Get in Touch!</h3>
+                    <hr>
+                    <p>Send us a quick message below and we’ll get back to you as soon as we can.</p>
 
-    </section>
-    <section>
-        <div class= "motos">
-            <div class="moto container">
-                <img src="./resources/images/image insert.jpg">                
-                <p>Fresh, enjoyable food</p>
-            </div>
-            <div class="moto container">
-                <p>Warm, welcoming surroundings</p>
-                <img src="./resources/images/image insert.jpg">                
-            </div>
-            <div class="moto container">
-                <img src="./resources/images/image insert.jpg">                
-                <p>We're really passionate about creating a nice space and serving lots of lovely food and nice coffee</p>
+                </div>
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="./resources/images/arrow-point-to-right.png" alt=""></button>
+            </form>
+            <div class="contact-right">
+                <img src="./resources/images/coffee-drinkmenu.png" alt="">
             </div>
         </div>
-        <!-- <div class="logo"><a><img src="./resources/images/main-logo.png" alt="No.9 Logo"></a></div> -->
+        <div class="contact-text">
+            <!-- <br>
+            Call us during opening hours on:  -->
+            <p><a href="mailto: number9warrington@hotmail.com"> number9warrington@hotmail.com</a></p>
+            <br>
+            <p>9 Huntley St</p>
+            <p>Great Sankey</p>
+            <p>Warrington. WA5 1EQ</p>
+            <br><br>
+            <h3>Opening Times</h3>
+            <p>Monday - Friday: 07:00 - 16:00</p>
+            <p>Saturday: 08:00 - 16:00</p>
+            <p>Sunday: 09:00 - 15:00</p></div>
+        </div>  
 
+   
     </section>
-  
 
-     
-    <section class="info container"><a id="info"></a> 
-        <div><a class="open-time-box"> </a>
-            <div class="open-time-sticker">
-                <div class=""open-time-text>
-                <h2>Opening Times</h2>
-                <p>Monday - Friday: 07:00 - 16:00</p>
-                <p>Saturday: 08:00 - 16:00</p>
-                <p>Sunday: 09:00 - 15:00</p></div>
-            </div>
-        </div> 
-    </section>
 
-    
-    <footer>
+<footer>
     <div class="footer-container">
         <div class="logo-foot">
             <a href="#top"><img src="./resources/images/stickers/logo.png" alt="No.9 Logo"> </a>
         </div>
         <div class="foot-links">
             <a href="#./index.html">Home</a>
-            <a href="#./menus.html">Menus</a>
-            <a href="#./about.html">About Us</a>
-            <a href="#./contact.html">Contact Us</a>
+            <a href="#menuss">Menus</a>
+            <a href="#aboutus">About Us</a>
+            <a href="#Contactus">Contact Us</a>
         </div>
         <div class = "foot-address">
             <p>9 Huntley St</p>
@@ -108,6 +104,5 @@
 
 
 </main>
-
 </body>
 </html>

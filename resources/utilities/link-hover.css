@@ -25,3 +25,7 @@
     transform: scaleX(1);
     color: #b25416;
 }
+
+.under-trans:hover{
+    color: #000000;
+}

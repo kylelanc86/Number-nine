@@ -1,19 +1,17 @@
 h1 {
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 20px;
-    padding: 0;
-    color: #b25416;
+    font-weight: 600;
+    color: #1f3528;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    justify-content: center;
     }
 
 h3 {
@@ -24,6 +22,19 @@ h3 {
     padding: 0;
         }
 
+
+h4 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    color: #ffffff;
+}
+   
+            
+            
 p {
     text-align: center;
 }

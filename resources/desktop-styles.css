@@ -1,0 +1,136 @@
+/* UNIVERSAL STYLING */
+
+* {
+    font-family: "lora", serif;
+    color:#1f3528;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    } 
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+#menuss {
+    scroll-margin-top: 90px;
+    }
+
+#aboutus {
+    scroll-margin-top: 90px;
+}
+
+#contactus {
+    scroll-margin-top: 90px;
+}
+
+#socials {
+    scroll-margin-top: 90px;
+}
+
+
+/* END */
+
+
+
+main {
+    position: relative;
+    top: 8rem; /* To offset for fixed header. */
+    background: linear-gradient(#ffffff, #75857a)
+    }
+
+.banner {
+    background-image: url("./images/background\ image-dark.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    z-index: 0;
+    margin-top: 1;
+}
+
+.small-banner {
+    background-image: url("./images/coffee-drinkmenu.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    z-index: 0;
+    margin-top: 1;
+}
+
+#logo img {
+    height: 7rem;
+    margin-right: 16rem;
+}
+
+.banner-text {
+    text-decoration: none;
+}
+
+.small-banner-text {
+    text-transform: none;
+    font-size: 6rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    color:#1f3528;
+    font-family: 'Qwitcher Grypen';
+}
+
+.space {
+    margin-top: 8rem;
+}
+
+.above-sticker {
+    z-index: 100;
+}
+
+.logo img {
+    height: 10rem;
+}
+
+.banner .logo img {
+    height: 30rem;
+}
+
+.info {
+    flex-direction: column;
+}
+
+.motos{
+    margin:20px;
+}
+
+.moto img {
+    margin:80px;
+}
+
+.about-us h2 {
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about-us-text {
+    width: 70%;
+    font-size: 1.5rem;
+}

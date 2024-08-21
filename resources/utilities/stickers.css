@@ -1,9 +1,7 @@
 .sticker-box {
     width: 200px;
-    margin: auto;
-    z-index: 1;
-
-    /* outline: red 1px solid; */
+    /* margin: auto; */
+    z-index: 100;
 }
 
 /* .sticker-msg {
@@ -19,7 +17,9 @@
 .rotate-sticker {
     width: 200px;
     height: 200px;
-    position: absolute;
+    margin-top: 2rem;
+    right: 3rem;
+    /* position: absolute; */
     background-image: url("../images/stickers/logo.png") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,8 @@
     background-size: cover;
     animation: spin 10s linear infinite;
     animation-play-state: running;
-    justify-content: center;
+    /* justify-content: center; */
+    z-index: 100;
 }
 
 /* .rotate-sticker:hover {
@@ -39,3 +40,4 @@
         transform: rotate(1turn);
     }
 }
+
